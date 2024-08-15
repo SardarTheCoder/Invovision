@@ -84,26 +84,26 @@ const Testimonials = () => {
       <Carousal>
         <Slider {...settings}>
           <Card
-            text="CodeBucks has been essential part of our business. I would definetly
+            text="InvoVision has been essential part of our business. I would definetly
         recommend CodeBucks. It has been amazing to have them."
             name="Jenny (CodeCall)"
             image="avatar-1"
           />
 
           <Card
-            text="CodeBucks has been essential part of our business. I would definetly recommend CodeBucks. It has been amazing to have them."
+            text="InvoVisio provided us with a cutting-edge website that perfectly captures our brand and drives our growth. Their professional approach and dedication to quality have made a noticeable impact on our business. provided us with a cutting-edge website that perfectly captures our brand   "
             name="Jenny (CodeCall)"
             image="avatar-2"
           />
 
           <Card
-            text="CodeBucks has been essential part of our business. I would definetly recommend CodeBucks. It has been amazing to have them."
+            text="Working with InvoVision has been a game-changer for our business. Their expertise in crafting tailored digital solutions helped us stand out in a competitive market.."
             name="Jenny (CodeCall)"
             image="avatar-3"
           />
 
           <Card
-            text="CodeBucks has been essential part of our business. I would definetly recommend CodeBucks. It has been amazing to have them."
+            text=" I would definetly recommend invovision.Great and humble experience"
             name="Jenny (CodeCall)"
             image="avatar-4"
           />

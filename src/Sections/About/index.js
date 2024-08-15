@@ -139,10 +139,9 @@ const About = () => {
             </Human>
 
             <Text>
-              We help our customers to tell about themselves, to grow and stand
-              out in an increasingly competitive digital world, through creative
-              projects that are able to attract and involve, creating strategic
-              value.
+            Crafting compelling digital solutions that highlight your unique story, drive growth,
+             and distinguish you in a crowded market and turning your vision into exceptional digital experiences that elevate your 
+             brand and set you apart from the competition
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />
