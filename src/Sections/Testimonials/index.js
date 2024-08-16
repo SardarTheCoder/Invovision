@@ -91,7 +91,9 @@ const Testimonials = () => {
           />
 
           <Card
-            text="InvoVisio provided us with a cutting-edge website that perfectly captures our brand and drives our growth. Their professional approach and dedication to quality have made a noticeable impact on our business. provided us with a cutting-edge website that perfectly captures our brand   "
+            text="InvoVisio provided us with a cutting-edge website that perfectly captures our brand and drives our
+             growth. Their professional approach and dedication to quality have made a noticeable impact on our business.
+              provided us with a cutting-edge website that perfectly captures our brand   "
             name="Jenny (CodeCall)"
             image="avatar-2"
           />

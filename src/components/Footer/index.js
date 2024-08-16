@@ -58,13 +58,14 @@ const Footer = () => {
           <img src={Twitter} alt="Twitter" />
         </a>
         &nbsp;
-        <a href="https://www.instagram.com/Invovision/">
+        <a href="https://www.instagram.com/macrosoar/?igshid=jdln1f8fa33k">
           <img src={Instagram} alt="Instagram" />
         </a>
         &nbsp;
-        <a href="......">
+        <a href="info@invovision.io">
           <img src={Gmail} alt="Gmail" />
         </a>
+        
       </RightText>
     </FOOTER>
   );

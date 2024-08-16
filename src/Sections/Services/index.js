@@ -329,12 +329,16 @@ const Services = () => {
 
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Design"
-          title={<h1>We build award winning Designs</h1>}
+          topic="Web Development"
+          title={<h1>We build attractive UI/Ux</h1>}
           subText={
             <h5>
-              We help clients to build great design to attract more customers
-            </h5>
+            We provide creative and professional web applications to
+            empower your business online. Combination of the latest
+            technology and best development practice helps us to deliver
+            efficient web applications.
+              </h5>
+            
           }
         />
         <OBJ>
@@ -344,12 +348,13 @@ const Services = () => {
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Develop"
-          title={<h1>We Develope high quality Web & App</h1>}
+          topic="Digital Marketing"
+          title={<h1>Let us craft a digital marketing plan that turns your goals into reality.</h1>}
           subText={
             <h5>
-              We build appropriate solution to develope your website & app with
-              best tools available
+             Our marketing experts bring the most effective digital marketing solution that helps
+              you get maximum numbers of subscribers for your brands. We guarantee an engaging experience
+               for your customers and retain brand loyalty.
             </h5>
           }
         />
@@ -360,13 +365,13 @@ const Services = () => {
       </Content>
       <Content>
         <TextBlock
-          topic="Support"
-          title={<h1>We provide support for your digital presence</h1>}
+          topic="Mobile App Development"
+          title={<h1>Transform your ideas into powerful mobile apps that captivate and convert</h1>}
           subText={
             <h5>
-              Once your system is online, we will stay on hand to help you use
-              it and provide technical support and maintenance <br /> your
-              business
+              Our technically sound team of app developers have the best 
+              skills set and proven track record of providing groundbreaking app development
+               solutions to help you surge ahead of the competition.
             </h5>
           }
         />
@@ -374,6 +379,100 @@ const Services = () => {
           <img src={Capsule} alt="Capsule Object" width="400" height="400" />
         </OBJ>
         <SvgBlock svg="Support.svg" />
+      </Content>
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Graphic Designing"
+          title={<h1>Transform your message into eye-catching graphics that resonate with your audience.</h1>}
+          subText={
+            <h5>
+           Our website design services can help you boost more revenue, greater brand engagement 
+           and higher conversions with measurable results. Our services may 
+           be just what you’re looking for.
+              </h5>
+            
+          }
+        />
+        <OBJ>
+          <img src={Cone} alt="Tube Object" width="400" height="400" />
+        </OBJ>
+        <SvgBlock svg="Design.svg" />
+      </Content>
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="AI Development"
+          title={<h1>Empower your business with intelligent AI applications that deliver real results.</h1>}
+          subText={
+            <h5>
+           We provide wide range of cyber security services. Our security team will help you quantify
+            and prioritize your risks, help detect and respond to threats, unify your organization on 
+            security priorities to accelerate business transformation.
+              </h5>
+            
+          }
+        />
+        <OBJ>
+          <img src={Tube} alt="Tube Object" width="400" height="400" />
+        </OBJ>
+        <SvgBlock svg="Design.svg" />
+      </Content>
+
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Cyber Security"
+          title={<h1>Protect your business with cutting-edge cybersecurity solutions that stay ahead of threats.</h1>}
+          subText={
+            <h5>
+           We provide wide range of cyber security services. Our security team will help you quantify and
+            prioritize your risks, help detect and respond to threats, unify your organization on security
+             priorities to accelerate business transformation.
+              </h5>
+            
+          }
+        />
+        <OBJ>
+        <img src={Capsule} alt="Capsule Object" width="400" height="400" />
+        </OBJ>
+        <SvgBlock svg="Design.svg" />
+      </Content>
+
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="AR/VR app development"
+          title={<h1>Step into the future with innovative AR/VR apps that enhance and transform user experiences</h1>}
+          subText={
+            <h5>
+           Our technically sound team of AR/VR developers have the best skills set and proven track record of 
+           providing groundbreaking AR/VR development solutions to help you surge ahead of the competition.
+              </h5>
+            
+          }
+        />
+        <OBJ>
+          <img src={Cone} alt="Tube Object" width="400" height="400" />
+        </OBJ>
+        <SvgBlock svg="Design.svg" />
+      </Content>
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Blockchain Development"
+          title={<h1>Our blockchain solutions offer unmatched security and efficiency for your digital transactions</h1>}
+          subText={
+            <h5>
+           Our technically sound team of AR/VR developers have the best skills set and proven track record
+            of providing groundbreaking AR/VR development solutions to help you surge ahead of the competition.
+              </h5>
+            
+          }
+        />
+        <OBJ>
+          <img src={Capsule} alt="Tube Object" width="400" height="400" />
+        </OBJ>
+        <SvgBlock svg="Design.svg" />
       </Content>
     </ServiceSection>
   );

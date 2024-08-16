@@ -3,6 +3,7 @@ import LinkedId from "../../assets/linkedin-brands.svg";
 import Twitter from "../../assets/twitter-square-brands.svg";
 import Instagram from "../../assets/instagram-square-brands.svg";
 import styled from "styled-components";
+import './Contact.css'
 
 const ContactSection = styled.section`
   width: 100vw;
@@ -15,24 +16,7 @@ const ContactSection = styled.section`
   justify-content: center;
 `;
 
-const Title = styled.h1`
-  color: var(--white);
-  display: inline-block;
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  position: relative;
-  &::before {
-    content: "";
-    height: 1px;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0.5rem);
-    /* or 100px */
-    border-bottom: 2px solid var(--pink);
-  }
-`;
+
 
 const Icons = styled.div`
   display: flex;
@@ -54,122 +38,51 @@ const Icons = styled.div`
   }
 `;
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  input {
-    padding: 1rem calc(0.5rem + 1vw);
-    margin-bottom: 1rem;
-    background-color: var(--nav2);
-    border: none;
-    border-radius: 4px;
-    color: #eff7f8;
-    &:active,
-    &:focus {
-      border: none;
-      outline: none;
-      background-color: var(--nav);
-    }
-    &::placeholder {
-      color: #eff7f8;
-      opacity: 0.6;
-    }
-    &[name="name"] {
-      margin-right: 2rem;
-    }
-  }
-  textarea {
-    padding: 1rem calc(0.5rem + 1vw);
-    margin-bottom: 1rem;
-    background-color: var(--nav2);
-    border: none;
-    border-radius: 4px;
-    color: #eff7f8;
-    margin-bottom: 2rem;
-    &:focus,
-    &:active {
-      background-color: var(--nav);
-    }
-    &::placeholder {
-      color: #eff7f8;
-      opacity: 0.6;
-    }
-  }
-  button {
-    padding: 0.8rem 2rem;
-    background-color: var(--white);
-    border-radius: 20px;
-    font-size: 1.2rem;
-    color: #0a0b10;
-    cursor: pointer;
-    transition: transform 0.3s;
-    &:hover {
-      transform: scale(1.1);
-    }
-    &:active {
-      transform: scale(0.9);
-    }
-  }
-`;
 
-const Row = styled.div`
-  @media only Screen and (max-width: 40em) {
-    display: flex;
-    flex-direction: column;
-    input {
-      &[name="name"] {
-        margin-right: 0;
-      }
-    }
-  }
-`;
+
 const Contact = () => {
   return (
     <ContactSection id="contact">
-      <Title>Get in touch</Title>
+       <h5 class="heading">InvoVision</h5>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
       <Icons>
-        <a href="https://www.facebook.com/">
+        <a href="https://www.facebook.com/macrosoar/">
           {" "}
           <img src={Facebook} alt="Facebook" />
         </a>
-        <a href="https://www.linkedin.com//">
+        <a href="https://www.linkedin.com/company/invovision-technologies/?originalSubdomain=pk">
           <img src={LinkedId} alt="LinkedId" />
         </a>
         <a href="https://twitter.com/">
           <img src={Twitter} alt="Twitter" />
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/macrosoar/?igshid=jdln1f8fa33k">
           <img src={Instagram} alt="Instagram" />
         </a>
       </Icons>
-      <Form>
-        <Row>
-          <input name="name" type="text" placeholder="your name" />
-          <input
-            name="email"
-            type="email"
-            placeholder="enter working email id"
-          />
-        </Row>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="2"
-          placeholder="your message"
-        ></textarea>
-        <div style={{ margin: "0 auto" }}>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-          >
-            Submit
-          </button>
-        </div>
-      </Form>
+
+      <div class="container">
+    <div class="heading-container">
+       
+        <p class="description">We hope you enjoy our services as much as<br/> we enjoy offering them to you. If you have any questions<br/> or comments, please don’t hesitate and feel free to<br/> contact us.</p>
+    </div>
+
+    <div class="contact-info">
+    <h1 className="heading2">LOCATION:</h1>  <a href="https://www.google.com/maps/place/Pakland+Business+Center/@33.6666574,73.0761395,17z/data=!3m1!4b1!4m6!3m5!1s0x38df954f581447df:0x2f018f6e34b5f9f9!8m2!3d33.6666574!4d73.0761395!16s%2Fg%2F11g8_15sjr?entry=ttu" class="address">
+           Office #19, 2nd Floor, Huzaifa plaza, I-8 Markaz, Islamabad, Pakistan
+        </a>
+        <a href="info@invovision.io" class="email">
+          <h1 className="heading2">  Email:</h1> info@invovision.io
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B923455237716&text&type=phone_number&app_absent=0" class="whatsapp">
+            <ul class="phone-numbers"><h1 className="heading2"> Whatsapp:</h1>
+                <li>923455237716</li>
+                <li>923355135135</li>
+            </ul>
+        </a>
+    </div>
+</div>
+      
     </ContactSection>
   );
 };
